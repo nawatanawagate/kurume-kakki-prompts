@@ -81,6 +81,8 @@ a{color:var(--green-d);text-decoration:none}
 <a href="#e" class="nav-link"><span class="nav-ic">🧾</span>E. 店舗運営・事務</a>
 <a href="#f" class="nav-link"><span class="nav-ic">📊</span>F. 経営・分析・振り返り</a>
 <a href="#g" class="nav-link"><span class="nav-ic">🔒</span>G. 安全に使うガイド</a>
+<a href="#h" class="nav-link"><span class="nav-ic">🚚</span>H. 仕入れ・市場・季節</a>
+<a href="#i" class="nav-link"><span class="nav-ic">👥</span>I. スタッフ・採用・育成</a>
   </nav>
   <div class="sb-foot">スマホは「コピー」→ Gemini / ChatGPT に貼り付け。<br>■■は自分のお店に置きかえて使ってください。</div>
 </aside>
@@ -88,7 +90,7 @@ a{color:var(--green-d);text-decoration:none}
   <header class="hero">
     <h1>花屋・園芸店のための AIプロンプト集</h1>
     <p>スマホの Gemini / ChatGPT にそのまま貼って使える、現場ですぐ役立つプロンプト集。接客・販促・画像生成から、お店の経営まで。</p>
-    <div class="meta">全 42 本 ／ 7 カテゴリ ｜ 簡易プロンプト＋構造化プロンプト</div>
+    <div class="meta">全 100 本 ／ 9 カテゴリ ｜ 簡易プロンプト＋構造化プロンプト</div>
   </header>
   <div class="howto">
     <b>使い方（はじめにお読みください）</b>
@@ -104,7 +106,7 @@ a{color:var(--green-d);text-decoration:none}
 <section id="a" class="cat">
   <div class="cat-head">
     <h2><span class="cat-ic">🌸</span>A. 接客・お客様対応</h2>
-    <p class="cat-desc">お礼・お詫び・ギフト相談など、お客様への言葉づくり</p>
+    <p class="cat-desc">お礼・お詫び・ギフト相談・予約・立札など、お客様への言葉づくり</p>
   </div>
   
   <div class="card">
@@ -164,8 +166,7 @@ a{color:var(--green-d);text-decoration:none}
 ・専門用語はかみくだく
 
 #出力形式
-・Q&amp;A形式で10問
-・各回答は2〜3文</pre>
+・Q&amp;A形式で10問／各回答は2〜3文</pre>
       <button class="copy-btn" type="button">コピー</button>
     </div>
     
@@ -182,12 +183,142 @@ a{color:var(--green-d);text-decoration:none}
     </div>
     
   </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">LINEの問い合わせ返信</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 LINEに来た質問に返したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">LINEに来た「この花、日持ちしますか？」という質問への返信を、親しみやすく丁寧に作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ご予約確認メッセージ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 予約内容を確認したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">ご予約確認のメッセージを作って。受取日・本数・金額・受け取り方法を入れて、丁寧に。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">立札・メッセージの文例集</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 用途別の言葉をそろえたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋のベテラン店員です。
+
+#依頼
+用途別の立札・メッセージの文例集を作ってください。
+
+#条件
+・開店祝い／誕生日／お悔やみ の3用途
+・短い定番と、ていねいな長めの両方
+
+#出力形式
+・用途ごとに3例ずつ</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">電話注文の聞き取りメモ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 電話注文を漏れなく聞きたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">電話で花の注文を受けるときに聞くべき項目を、メモのテンプレにして作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">常連さんへの季節のあいさつ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 季節の変わり目に一声かけたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">常連のお客様へ送る、季節の変わり目のごあいさつメッセージを3案作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">配達不在時のメッセージ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 お届け先が不在だった</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">お届け先が不在だった時に残す、丁寧なメッセージカードの文面を作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">花粉・トゲの注意案内</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 購入時にやさしく伝えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">ユリの花粉やバラのトゲについて、購入時にお伝えする一言注意を、やわらかい言葉で作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">お祝いメッセージの代筆</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 心のこもった一文がほしい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">還暦祝いの花に添えるメッセージを、心のこもった文章で3案作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">接客ロールプレイの相手</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 接客の練習をしたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは予算をなかなか言わないお客様です。
+
+#依頼
+花屋の接客練習の相手になってください。
+
+#条件
+・母の日ギフトを探している設定
+・こちらの聞き方次第で要望を少しずつ出す
+
+#出力形式
+・会話形式で、1往復ずつ</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
 </section>
 
 <section id="b" class="cat">
   <div class="cat-head">
     <h2><span class="cat-ic">📣</span>B. 販促・SNS・発信</h2>
-    <p class="cat-desc">Instagram・POP・チラシ・LINE・クチコミ返信</p>
+    <p class="cat-desc">Instagram・POP・チラシ・LINE・クチコミ・ブログ</p>
   </div>
   
   <div class="card">
@@ -230,8 +361,7 @@ a{color:var(--green-d);text-decoration:none}
 お盆の供花の予約受付の告知を作ってください。
 
 #条件
-・LINEとチラシ用
-・予約締切と受け取り日を入れる
+・LINEとチラシ用／予約締切と受け取り日を入れる
 ・落ち着いた言葉で
 
 #出力形式
@@ -254,8 +384,7 @@ a{color:var(--green-d);text-decoration:none}
 母の日フェアのA4チラシの構成案を作ってください。
 
 #条件
-・対象：30〜50代の女性
-・期間：5/1〜5/11
+・対象：30〜50代の女性／期間：5/1〜5/11
 
 #出力形式
 ・キャッチコピー／見出し／載せる要素 をリストで</pre>
@@ -287,12 +416,152 @@ a{color:var(--green-d);text-decoration:none}
     </div>
     
   </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">Instagram プロフィール文</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 プロフィールを整えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花屋のInstagramプロフィール文を作って。お店の魅力と強みが伝わるように、150字以内で。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">リール動画の台本</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 ショート動画を作りたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたはSNS運用の担当です。
+
+#依頼
+30秒のリール動画の台本を作ってください。
+
+#条件
+・テーマ：観葉植物のお手入れ豆知識／スマホ撮影前提
+
+#出力形式
+・シーン割り＋画面の説明＋ナレーション</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ハッシュタグの提案</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 タグ選びに迷う</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">久留米の花屋のInstagram投稿に合うハッシュタグを、大・中・小のミックスで15個提案して。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ブログ記事の構成</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 ホームページのブログを書きたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたはSEOにくわしいライターです。
+
+#依頼
+「初心者向け 観葉植物の選び方」のブログ記事構成を作ってください。
+
+#条件
+・検索する人の知りたいことを意識
+
+#出力形式
+・見出し構成＋各見出しの要点</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">Googleビジネスの投稿</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 Googleマップに投稿したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">Googleマップ（ビジネスプロフィール）の最新情報に載せる、母の日フェアの投稿文を作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">季節のお便り・メルマガ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 お客様にお便りを出したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">お客様向けの季節のお便り（今月のおすすめ＋お手入れ豆知識）を作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">★1クチコミへの返信</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 厳しい口コミに対応したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">★1の厳しい口コミへの、誠実で冷静な返信を3案作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">POPのキャッチコピー</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 足を止める一言がほしい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">多肉植物コーナーの、思わず足を止めるキャッチコピーを5案作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">チラシ配布の声かけ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 店頭での声かけに迷う</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">店頭でチラシを配るときの、自然で押しつけない声かけの一言を3パターン作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">X（旧Twitter）の投稿</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 入荷情報を短く発信したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">入荷情報を伝えるXの投稿を、短く親しみやすく、絵文字つきで3案作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
 </section>
 
 <section id="c" class="cat">
   <div class="cat-head">
     <h2><span class="cat-ic">🪴</span>C. 植物の知識・お手入れ</h2>
-    <p class="cat-desc">お手入れ説明・植物Q&amp;A・花言葉・季節のおすすめ</p>
+    <p class="cat-desc">お手入れ説明・植物Q&amp;A・花言葉・選び方・育て方</p>
   </div>
   
   <div class="card">
@@ -345,11 +614,116 @@ a{color:var(--green-d);text-decoration:none}
 夏におすすめの寄せ植えを提案してください。
 
 #条件
-・暑さに強い／初心者向け
-・久留米の気候（高温多湿）を前提に
+・暑さに強い／初心者向け／久留米の気候（高温多湿）
 
 #出力形式
 ・商品名＋特徴＋育て方ポイント を3セット</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">月別の水やりカレンダー</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 お客様の管理を助けたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは園芸の専門家です。
+
+#依頼
+観葉植物の月別 水やりカレンダーを作ってください。
+
+#条件
+・久留米の気候／初心者向け
+
+#出力形式
+・1月〜12月の表（頻度の目安＋注意）</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">害虫・病気の見分け</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 初期サインを伝えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">観葉植物につきやすい害虫と、初期サインの見分け方・対処を、初心者向けに教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ギフト向き植物の提案</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 贈り物の相談に備えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">新築祝いに向く観葉植物を、育てやすさ重視で5つ、理由つきで教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ペット・子どもに安全な植物</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 安全性を聞かれる</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">犬・猫がいる家庭でも安心な観葉植物を5つ、理由つきで教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">日陰でも育つ植物</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 置き場所の相談に答えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">日当たりの悪い玄関でも育つ植物を、理由つきで5つ教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">切り花を長持ちさせるコツ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 一枚にまとめて渡したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">切り花を長持ちさせるコツを、お客様に渡す一枚にやさしくまとめて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">植え替えの手順説明</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 植え替えを教えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">観葉植物の植え替えの手順とコツを、初心者向けにステップで教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ドライフラワーの作り方</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 自宅でできる方法を伝えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">お客様に教える、自宅でできるドライフラワーの作り方を簡単にまとめて。</pre>
       <button class="copy-btn" type="button">コピー</button>
     </div>
     
@@ -359,7 +733,7 @@ a{color:var(--green-d);text-decoration:none}
 <section id="d" class="cat">
   <div class="cat-head">
     <h2><span class="cat-ic">🖼️</span>D. 画像生成</h2>
-    <p class="cat-desc">写真を“魅せる”画像へ。お部屋合成・チラシ・モデル写真・EC写真</p>
+    <p class="cat-desc">写真を“魅せる”画像へ。合成・チラシ・モデル写真・量産・サイズ展開</p>
   </div>
   
   <div class="card">
@@ -521,8 +895,7 @@ a{color:var(--green-d);text-decoration:none}
 ・画像サイズは正方形
 
 #出力形式
-・商品ごとに1枚ずつ、同じ構図・同じ背景で出力
-・カタログとして並べても揃って見えるように</pre>
+・商品ごとに1枚ずつ、同じ構図・同じ背景で出力</pre>
       <button class="copy-btn" type="button">コピー</button>
     </div>
     <div class="tip">💡 1枚目が決まったら「この背景・構図のまま、植物だけ○○に変えて」と続けると、統一感を保ったまま何枚でも量産できます。</div>
@@ -604,12 +977,60 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     </div>
     
   </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">料金表・メニュー表のデザイン</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 教室や宅配の料金表を作りたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">フラワーアレンジ教室の料金表をおしゃれに作って。コース名・料金・所要時間を入れて、ナチュラルな雰囲気で。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">メッセージカードのデザイン</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 添えるカードを用意したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">お祝い用のメッセージカードのデザインを、上品なボタニカル柄で作って。メッセージを書き込む余白も。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ロゴのアイデア</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 お店のロゴ案がほしい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花屋のロゴ案を作って。ナチュラルで温かみのある雰囲気、店名「○○フラワー」を入れて。3案。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">手書き風POP画像</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 入荷POPをポップに見せたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">「本日入荷！」の手書き風POP画像を、明るくポップな雰囲気で作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
 </section>
 
 <section id="e" class="cat">
   <div class="cat-head">
     <h2><span class="cat-ic">🧾</span>E. 店舗運営・事務</h2>
-    <p class="cat-desc">値札一括・メール・手順書・メモ整理</p>
+    <p class="cat-desc">値札・メール・手順書・在庫・シフト・経費メモ</p>
   </div>
   
   <div class="card">
@@ -630,8 +1051,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
 ・各60〜80字／初心者にもやさしく
 
 #出力形式
-・商品ごとに見出し＋本文
-・最後に一覧の表でも</pre>
+・商品ごとに見出し＋本文／最後に一覧の表でも</pre>
       <button class="copy-btn" type="button">コピー</button>
     </div>
     
@@ -673,12 +1093,95 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     </div>
     
   </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">シフト表のたたき台</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 シフトを組みたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋の店長です。
+
+#依頼
+1週間のシフト表のたたき台を作ってください。
+
+#条件
+・スタッフ3名／土日は手厚く／営業10〜19時
+
+#出力形式
+・曜日×時間の表</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">在庫メモを表に整理</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 手書きメモを整えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">この在庫メモを、商品名・数量・仕入先・入荷日の表に整理して。
+（↓メモを貼り付け）</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">値付けの考え方</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 価格設定に迷う</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">仕入れ値が分かっている商品の、小売価格の付け方の基本的な考え方を、花屋向けに教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">レシート・経費メモの整理</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 経費を仕分けたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">このレシートの内容を、日付・店名・金額・科目（消耗品/仕入/通信費など）の表に整理して。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">POP定番フレーズ集</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 すぐ使える言葉がほしい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花屋ですぐ使えるPOPの定番フレーズを20個、リストにして。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">棚卸しチェックリスト</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 月末の作業を漏らさない</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花屋の月末棚卸しのチェックリストを作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
 </section>
 
 <section id="f" class="cat">
   <div class="cat-head">
     <h2><span class="cat-ic">📊</span>F. 経営・分析・振り返り</h2>
-    <p class="cat-desc">売れ筋分析・アンケート分析・販路開拓・補助金</p>
+    <p class="cat-desc">売れ筋・アンケート・販路開拓・補助金・月次振り返り</p>
   </div>
   
   <div class="card">
@@ -695,8 +1198,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
 レジ・在庫メモから、売れ筋の傾向を分析してください。
 
 #条件
-・データは下に貼り付ける
-・曜日／季節／商品カテゴリの視点で
+・データは下に貼り付ける／曜日・季節・商品カテゴリの視点で
 
 #出力形式
 ・傾向の要点＋改善提案を3つ</pre>
@@ -718,8 +1220,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
 お客様アンケートの自由記述を分析してください。
 
 #条件
-・回答は下に貼り付ける
-・「満足点」「不満点」に分類し、多い順に件数も
+・回答は下に貼り付ける／「満足点」「不満点」に分類し件数も
 
 #出力形式
 ・分類ごとに箇条書き＋改善アクション3つ</pre>
@@ -741,12 +1242,10 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
 当店の販路開拓プランの下書きを作ってください。
 
 #条件
-・店の概要は下に貼る
-・新規客とリピーター両方の施策／予算は小さめ前提
+・店の概要は下に貼る／新規客とリピーター両方／予算は小さめ
 
 #出力形式
-・現状→課題→施策→スケジュールの順
-・補助金の事業計画にも転用できる形で</pre>
+・現状→課題→施策→スケジュールの順（補助金にも転用できる形で）</pre>
       <button class="copy-btn" type="button">コピー</button>
     </div>
     
@@ -763,12 +1262,104 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     </div>
     
   </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">今月の振り返り</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 月次でちゃんと振り返りたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋の経営アドバイザーです。
+
+#依頼
+今月の振り返りを一緒にしてください。
+
+#条件
+・売上・客数・出来事のメモを下に貼る
+
+#出力形式
+・良かった点／課題／来月の打ち手3つ</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">競合店との差別化</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 近隣店と差をつけたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">近隣の花屋と差別化するために、比較・検討すべき観点を整理して教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">新サービスのアイデア出し</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 新しい収益の柱がほしい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花屋の新しい収益の柱になりそうなサービスを、10個アイデア出しして。それぞれ一言ずつ。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">価格改定のお知らせ文</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 値上げを丁寧に伝えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">やむを得ない値上げを、お客様に納得いただけるお知らせ文にして。誠実に、前向きに。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">来期の事業計画の壁打ち</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 計画を整理したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは中小店の経営コンサルタントです。
+
+#依頼
+来期の事業計画を一緒に整理してください。
+
+#条件
+・店の概要・現状を下に貼る
+
+#出力形式
+・目標→施策→必要な投資→スケジュール</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">SNS運用の振り返り</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 投稿の効果を見直したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">先月のInstagram投稿の反応メモから、うまくいった点・改善点を3つずつ教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
 </section>
 
 <section id="g" class="cat">
   <div class="cat-head">
     <h2><span class="cat-ic">🔒</span>G. 安全に使うガイド</h2>
-    <p class="cat-desc">お客様情報を守る・学習させない設定・商用利用の注意</p>
+    <p class="cat-desc">お客様情報を守る・学習させない設定・商用利用・確認のルール</p>
   </div>
   
   <div class="card">
@@ -813,6 +1404,241 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
 ・販促に使う前に各サービスの規約を確認
 ・店名／価格／日付などの事実は自分で記入し、人の目で最終チェック。</pre>
       
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">著作権・写真の使い方</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 素材選びで迷う</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【基本ルール】
+・ネットで拾った写真やイラストをそのまま素材にしない
+・お店で撮った写真、商用OKの素材、AIで作った画像を使う
+・人物が写る写真は本人の許可を取る。</pre>
+      
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">AIの答えの確認（ハルシネーション）</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 まちがいを防ぎたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【気をつけること】
+・AIは“もっともらしい間違い”を言うことがある
+・育て方・効能・日付・価格などの事実は、必ず人が確認
+・お客様に渡す前にもう一度読み直す。</pre>
+      
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">お客様への伝え方</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 誤解を生まないために</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【ひとこと添える】
+・AIで作った画像は「イメージです」と添える
+・実物と色や形が違う場合があることを伝える
+→ 後のトラブルを防げます。</pre>
+      
+    </div>
+    
+  </div>
+</section>
+
+<section id="h" class="cat">
+  <div class="cat-head">
+    <h2><span class="cat-ic">🚚</span>H. 仕入れ・市場・季節</h2>
+    <p class="cat-desc">仕入れの下調べ・入荷案内・ロス対策・需要の見立て</p>
+  </div>
+  
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">仕入れ前の下調べ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 市場のセリ前に流行を知りたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">母の日前に仕入れで注目すべき花材のトレンドや、人気の色・品種の傾向を教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">入荷予定の案内文</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 今週の入荷を知らせたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">今週の入荷予定をお客様向けに案内する文を、わくわくする雰囲気で作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">ロス（廃棄）を減らす工夫</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 廃棄を減らしたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花のロス（廃棄）を減らす売り方・見せ方の工夫を、すぐできるものを中心に10個教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">仕入れ計画の相談</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 来月の仕入れを考えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋の仕入れ担当です。
+
+#依頼
+来月の仕入れ計画の考え方を整理してください。
+
+#条件
+・その月のイベント・季節・気候を踏まえる
+
+#出力形式
+・週ごとの重点品目と理由</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">規格外・B品の活用</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 ロス品を売り切りたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">規格外やB品の花の、売り方・活用アイデアを5つ教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">天候と需要の見立て</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 仕入れ量を判断したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">梅雨〜真夏の時期に、売れやすい商品・売れにくい商品の傾向を教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+</section>
+
+<section id="i" class="cat">
+  <div class="cat-head">
+    <h2><span class="cat-ic">👥</span>I. スタッフ・採用・育成</h2>
+    <p class="cat-desc">求人・面接・研修・接客マニュアル・声かけ</p>
+  </div>
+  
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">求人票のたたき台</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 スタッフを募集したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋の採用担当です。
+
+#依頼
+花屋スタッフの求人票のたたき台を作ってください。
+
+#条件
+・未経験歓迎／パート・アルバイト／お店の雰囲気も伝える
+
+#出力形式
+・仕事内容／求める人物像／待遇／お店の魅力</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">面接の質問リスト</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 面接で何を聞くか迷う</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花屋のアルバイト面接で聞くとよい質問を10個、ねらいも添えて教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">新人研修の流れ</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 初日の研修を組みたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋の店長です。
+
+#依頼
+新人スタッフの初日研修メニューを作ってください。
+
+#条件
+・半日（4時間）／未経験者
+
+#出力形式
+・時間割（何時に何を）</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">接客マニュアル</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 接客の基本を揃えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">新人向けの基本接客マニュアル（ご来店〜お見送りまで）を、わかりやすく作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">スタッフへのフィードバック</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 前向きに伝えたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">がんばっているスタッフへの、前向きで具体的なフィードバックの言葉を3案作って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">朝礼の一言ネタ</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 朝礼の話題がほしい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">花にまつわる、朝礼で使える短い小話を5つ教えて。</pre>
+      <button class="copy-btn" type="button">コピー</button>
     </div>
     
   </div>
