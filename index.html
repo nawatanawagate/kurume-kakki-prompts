@@ -88,7 +88,7 @@ a{color:var(--green-d);text-decoration:none}
   <header class="hero">
     <h1>花屋・園芸店のための AIプロンプト集</h1>
     <p>スマホの Gemini / ChatGPT にそのまま貼って使える、現場ですぐ役立つプロンプト集。接客・販促・画像生成から、お店の経営まで。</p>
-    <div class="meta">全 38 本 ／ 7 カテゴリ ｜ 簡易プロンプト＋構造化プロンプト</div>
+    <div class="meta">全 42 本 ／ 7 カテゴリ ｜ 簡易プロンプト＋構造化プロンプト</div>
   </header>
   <div class="howto">
     <b>使い方（はじめにお読みください）</b>
@@ -526,6 +526,83 @@ a{color:var(--green-d);text-decoration:none}
       <button class="copy-btn" type="button">コピー</button>
     </div>
     <div class="tip">💡 1枚目が決まったら「この背景・構図のまま、植物だけ○○に変えて」と続けると、統一感を保ったまま何枚でも量産できます。</div>
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">広めの空間に置く（リビング／オフィス）</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 空間ごと“引き”で見せたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">（鉢植えの写真を添付）
+この観葉植物を、広めのリビング（またはオフィスの執務スペース）に置いた写真にして。床置きの大鉢として、ソファや窓・デスクなど空間が広く写る“引き”の構図で。明るい自然光で。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">SNS連作（週替わりで複数枚）</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 同じトーンで投稿画像をまとめ作り</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋・園芸店のSNS担当です。
+
+#依頼
+Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分）まとめて作ってください。
+
+#条件
+・共通テンプレ：左上に小さく店名、下部に短いキャッチを置く枠
+・色味・フォントの雰囲気は全枚で統一（ナチュラル・明るい）
+・テーマ：今週のおすすめ／お手入れ豆知識／新入荷／週末フェア
+・画像サイズは縦長4：5
+
+#出力形式
+・4枚を1枚ずつ、同じレイアウト・トーンで</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    <div class="tip">💡 1セット気に入ったら「同じテンプレ・色味のまま、来週分の話題で」と続けると、世界観を保って量産できます。</div>
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">季節で背景だけ差し替え</div>
+      <span class="badge t-struct">構造化</span>
+    </div>
+    <div class="scene">💡 同じ商品を季節違いで撮り直したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">#役割
+あなたは花屋・園芸店のEC担当です。
+
+#依頼
+同じ商品写真の背景だけを、季節違いで作り分けてください。
+
+#条件
+・商品（鉢植え）は添付写真のまま変えない
+・背景を季節で差し替え：春（やわらかい光）／夏（涼しげ）／秋（あたたかい色）
+・置き場所の雰囲気は共通（明るい室内）
+
+#出力形式
+・春・夏・秋の3枚を、同じ構図で1枚ずつ</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    <div class="tip">💡 「商品はこのまま、背景だけ○○（季節）に」と指定すると、商品の見え方を変えずに季節感だけ替えられます。</div>
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">サイズ展開（正方形／4：5／9：16）</div>
+      <span class="badge t-simple">簡易</span>
+    </div>
+    <div class="scene">💡 1枚を各SNSサイズに展開したい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">（作った画像を添付）
+この画像を、レイアウトを崩さずに3サイズで書き出して。
+①正方形（1：1）②Instagram縦長（4：5）③ストーリーズ／リール用（9：16）。
+見切れる場合は周りを自然に補って。</pre>
+      <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
   </div>
 </section>
 
