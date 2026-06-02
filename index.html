@@ -80,9 +80,9 @@ a{color:var(--green-d);text-decoration:none}
 <a href="#d" class="nav-link"><span class="nav-ic">🖼️</span>D. 画像生成</a>
 <a href="#e" class="nav-link"><span class="nav-ic">🧾</span>E. 店舗運営・事務</a>
 <a href="#f" class="nav-link"><span class="nav-ic">📊</span>F. 経営・分析・振り返り</a>
-<a href="#g" class="nav-link"><span class="nav-ic">🔒</span>G. 安全に使うガイド</a>
-<a href="#h" class="nav-link"><span class="nav-ic">🚚</span>H. 仕入れ・市場・季節</a>
-<a href="#i" class="nav-link"><span class="nav-ic">👥</span>I. スタッフ・採用・育成</a>
+<a href="#h" class="nav-link"><span class="nav-ic">🚚</span>G. 仕入れ・市場・季節</a>
+<a href="#i" class="nav-link"><span class="nav-ic">👥</span>H. スタッフ・採用・育成</a>
+<a href="#g" class="nav-link"><span class="nav-ic">🔒</span>I. 安全に使うガイド</a>
   </nav>
   <div class="sb-foot">スマホは「コピー」→ Gemini / ChatGPT に貼り付け。<br>■■は自分のお店に置きかえて使ってください。</div>
 </aside>
@@ -97,7 +97,7 @@ a{color:var(--green-d);text-decoration:none}
     <ul>
       <li><b>そのまま使わず、アレンジを。</b>「コピー」→ Gemini / ChatGPT に貼り付け、商品名や ■■ を自分のお店・商品に置きかえてください。言い回しもお店らしく。</li>
       <li><b>画像系は写真の添付を推奨。</b>花材・商品の写真を添えると、実物に近い仕上がりになります。</li>
-      <li><b>安全に利用するために。</b>お客様情報は入れない・学習させない設定を。<a href="#g">→ 安全に使うガイド（G）を見る</a></li>
+      <li><b>安全に利用するために。</b>お客様情報は入れない・学習させない設定を。<a href="#g">→ 安全に使うガイド（I）を見る</a></li>
       <li>うまくいかない時は「もっと短く」「やさしく」と言い直すと整います。</li>
     </ul>
   </div>
@@ -1356,107 +1356,9 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
   </div>
 </section>
 
-<section id="g" class="cat">
-  <div class="cat-head">
-    <h2><span class="cat-ic">🔒</span>G. 安全に使うガイド</h2>
-    <p class="cat-desc">お客様情報を守る・学習させない設定・商用利用・確認のルール</p>
-  </div>
-  
-  <div class="card">
-    <div class="card-top">
-      <div class="card-title">学習させない設定（オプトアウト）</div>
-      <span class="badge t-info">説明</span>
-    </div>
-    <div class="scene">📌 会話を学習に使われたくない</div>
-    <div class="prompt-wrap">
-      <pre class="prompt">【Gemini】設定 →「Geminiアプリ アクティビティ」をオフ
-【ChatGPT】設定 → データコントロール →「すべての人のためにモデルを改善する」をオフ
-→ いずれも会話が学習に使われにくくなります（無料でも設定可）。</pre>
-      
-    </div>
-    
-  </div>
-  <div class="card">
-    <div class="card-top">
-      <div class="card-title">入れてはいけない情報</div>
-      <span class="badge t-info">説明</span>
-    </div>
-    <div class="scene">📌 うっかり漏らさないために</div>
-    <div class="prompt-wrap">
-      <pre class="prompt">【入力を避けるもの】
-・お客様の名前／住所／電話／購入履歴
-・仕入れ値や取引条件などの機密
-→ 必要なときは「お客様A様」「○○市の方」のようにぼかして使う。</pre>
-      
-    </div>
-    
-  </div>
-  <div class="card">
-    <div class="card-top">
-      <div class="card-title">生成画像の商用利用の注意</div>
-      <span class="badge t-info">説明</span>
-    </div>
-    <div class="scene">📌 販促に使う前に確認</div>
-    <div class="prompt-wrap">
-      <pre class="prompt">【チェックポイント】
-・他店やネットの写真を素材にしない（自分で撮った写真を使う）
-・有名キャラ／ロゴ／実在人物の顔は避ける
-・販促に使う前に各サービスの規約を確認
-・店名／価格／日付などの事実は自分で記入し、人の目で最終チェック。</pre>
-      
-    </div>
-    
-  </div>
-  <div class="card">
-    <div class="card-top">
-      <div class="card-title">著作権・写真の使い方</div>
-      <span class="badge t-info">説明</span>
-    </div>
-    <div class="scene">📌 素材選びで迷う</div>
-    <div class="prompt-wrap">
-      <pre class="prompt">【基本ルール】
-・ネットで拾った写真やイラストをそのまま素材にしない
-・お店で撮った写真、商用OKの素材、AIで作った画像を使う
-・人物が写る写真は本人の許可を取る。</pre>
-      
-    </div>
-    
-  </div>
-  <div class="card">
-    <div class="card-top">
-      <div class="card-title">AIの答えの確認（ハルシネーション）</div>
-      <span class="badge t-info">説明</span>
-    </div>
-    <div class="scene">📌 まちがいを防ぎたい</div>
-    <div class="prompt-wrap">
-      <pre class="prompt">【気をつけること】
-・AIは“もっともらしい間違い”を言うことがある
-・育て方・効能・日付・価格などの事実は、必ず人が確認
-・お客様に渡す前にもう一度読み直す。</pre>
-      
-    </div>
-    
-  </div>
-  <div class="card">
-    <div class="card-top">
-      <div class="card-title">お客様への伝え方</div>
-      <span class="badge t-info">説明</span>
-    </div>
-    <div class="scene">📌 誤解を生まないために</div>
-    <div class="prompt-wrap">
-      <pre class="prompt">【ひとこと添える】
-・AIで作った画像は「イメージです」と添える
-・実物と色や形が違う場合があることを伝える
-→ 後のトラブルを防げます。</pre>
-      
-    </div>
-    
-  </div>
-</section>
-
 <section id="h" class="cat">
   <div class="cat-head">
-    <h2><span class="cat-ic">🚚</span>H. 仕入れ・市場・季節</h2>
+    <h2><span class="cat-ic">🚚</span>G. 仕入れ・市場・季節</h2>
     <p class="cat-desc">仕入れの下調べ・入荷案内・ロス対策・需要の見立て</p>
   </div>
   
@@ -1546,7 +1448,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
 
 <section id="i" class="cat">
   <div class="cat-head">
-    <h2><span class="cat-ic">👥</span>I. スタッフ・採用・育成</h2>
+    <h2><span class="cat-ic">👥</span>H. スタッフ・採用・育成</h2>
     <p class="cat-desc">求人・面接・研修・接客マニュアル・声かけ</p>
   </div>
   
@@ -1639,6 +1541,104 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     <div class="prompt-wrap">
       <pre class="prompt">花にまつわる、朝礼で使える短い小話を5つ教えて。</pre>
       <button class="copy-btn" type="button">コピー</button>
+    </div>
+    
+  </div>
+</section>
+
+<section id="g" class="cat">
+  <div class="cat-head">
+    <h2><span class="cat-ic">🔒</span>I. 安全に使うガイド</h2>
+    <p class="cat-desc">お客様情報を守る・学習させない設定・商用利用・確認のルール</p>
+  </div>
+  
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">学習させない設定（オプトアウト）</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 会話を学習に使われたくない</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【Gemini】設定 →「Geminiアプリ アクティビティ」をオフ
+【ChatGPT】設定 → データコントロール →「すべての人のためにモデルを改善する」をオフ
+→ いずれも会話が学習に使われにくくなります（無料でも設定可）。</pre>
+      
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">入れてはいけない情報</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 うっかり漏らさないために</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【入力を避けるもの】
+・お客様の名前／住所／電話／購入履歴
+・仕入れ値や取引条件などの機密
+→ 必要なときは「お客様A様」「○○市の方」のようにぼかして使う。</pre>
+      
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">生成画像の商用利用の注意</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 販促に使う前に確認</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【チェックポイント】
+・他店やネットの写真を素材にしない（自分で撮った写真を使う）
+・有名キャラ／ロゴ／実在人物の顔は避ける
+・販促に使う前に各サービスの規約を確認
+・店名／価格／日付などの事実は自分で記入し、人の目で最終チェック。</pre>
+      
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">著作権・写真の使い方</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 素材選びで迷う</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【基本ルール】
+・ネットで拾った写真やイラストをそのまま素材にしない
+・お店で撮った写真、商用OKの素材、AIで作った画像を使う
+・人物が写る写真は本人の許可を取る。</pre>
+      
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">AIの答えの確認（ハルシネーション）</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 まちがいを防ぎたい</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【気をつけること】
+・AIは“もっともらしい間違い”を言うことがある
+・育て方・効能・日付・価格などの事実は、必ず人が確認
+・お客様に渡す前にもう一度読み直す。</pre>
+      
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">お客様への伝え方</div>
+      <span class="badge t-info">説明</span>
+    </div>
+    <div class="scene">📌 誤解を生まないために</div>
+    <div class="prompt-wrap">
+      <pre class="prompt">【ひとこと添える】
+・AIで作った画像は「イメージです」と添える
+・実物と色や形が違う場合があることを伝える
+→ 後のトラブルを防げます。</pre>
+      
     </div>
     
   </div>
