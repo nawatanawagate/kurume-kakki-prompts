@@ -59,6 +59,13 @@ a{color:var(--green-d);text-decoration:none}
 .copy-btn{position:absolute;top:10px;right:10px;background:var(--green-mid);color:#fff;border:0;border-radius:7px;padding:6px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:var(--font);transition:.15s}
 .copy-btn:hover{background:var(--green)}
 .copy-btn.done{background:#388e3c}
+.palette{background:#fff;border:1px solid var(--border);border-left:4px solid var(--green-mid);border-radius:10px;padding:14px 18px;margin-bottom:16px}
+.pal-title{font-weight:700;color:var(--green-d);font-size:15px;margin-bottom:10px}
+.pal-row{display:flex;gap:12px;padding:6px 0;border-bottom:1px dashed var(--border-light,#eef4f8);align-items:baseline}
+.pal-row:last-of-type{border-bottom:0}
+.pal-axis{flex:0 0 92px;font-weight:700;color:var(--ink);font-size:13px;background:var(--green-soft);border-radius:6px;padding:3px 8px;text-align:center}
+.pal-words{flex:1;font-size:13px;color:var(--text);line-height:1.6}
+.pal-hint{margin-top:10px;font-size:12.5px;color:var(--soft);background:var(--yellow);border-radius:6px;padding:8px 12px}
 .tip{margin-top:9px;font-size:12.5px;color:var(--soft);background:var(--green-soft);border-left:3px solid var(--green-mid);border-radius:0 6px 6px 0;padding:8px 12px;line-height:1.55}
 .top-btn{position:fixed;right:20px;bottom:20px;background:var(--green);color:#fff;border:0;border-radius:50%;width:48px;height:48px;font-size:18px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.2);z-index:90}
 @media(max-width:820px){
@@ -108,6 +115,7 @@ a{color:var(--green-d);text-decoration:none}
     <h2><span class="cat-ic">🌸</span>A. 接客・お客様対応</h2>
     <p class="cat-desc">お礼・お詫び・ギフト相談・予約・立札など、お客様への言葉づくり</p>
   </div>
+  
   
   <div class="card">
     <div class="card-top">
@@ -320,6 +328,7 @@ a{color:var(--green-d);text-decoration:none}
     <h2><span class="cat-ic">📣</span>B. 販促・SNS・発信</h2>
     <p class="cat-desc">Instagram・POP・チラシ・LINE・クチコミ・ブログ</p>
   </div>
+  
   
   <div class="card">
     <div class="card-top">
@@ -564,6 +573,7 @@ a{color:var(--green-d);text-decoration:none}
     <p class="cat-desc">お手入れ説明・植物Q&amp;A・花言葉・選び方・育て方</p>
   </div>
   
+  
   <div class="card">
     <div class="card-top">
       <div class="card-title">お手入れ説明（配布用）</div>
@@ -734,6 +744,11 @@ a{color:var(--green-d);text-decoration:none}
   <div class="cat-head">
     <h2><span class="cat-ic">🖼️</span>D. 画像生成</h2>
     <p class="cat-desc">写真を“魅せる”画像へ。合成・チラシ・モデル写真・量産・サイズ展開</p>
+  </div>
+  <div class="palette">
+    <div class="pal-title">🎨 仕上がりを変える“修飾子”早見表</div>
+    <div class="pal-row"><span class="pal-axis">絵柄</span><span class="pal-words">写真風／イラスト風／水彩／線画／アニメ風／3D・CG／ミニチュア風</span></div><div class="pal-row"><span class="pal-axis">雰囲気</span><span class="pal-words">ナチュラル／北欧風／韓国風／和モダン／ヴィンテージ／ポップ／高級感／清潔感</span></div><div class="pal-row"><span class="pal-axis">背景</span><span class="pal-words">白背景／白い壁＋ウッド棚／明るいリビング／カフェ／屋外の庭／ボケ背景</span></div><div class="pal-row"><span class="pal-axis">ライティング</span><span class="pal-words">自然光／柔らかい光／逆光／スポットライト／夕方の光／明るめ</span></div><div class="pal-row"><span class="pal-axis">構図・アングル</span><span class="pal-words">真上から（俯瞰）／目線の高さ／寄り（アップ）／引き（全体）／余白多め</span></div><div class="pal-row"><span class="pal-axis">色味</span><span class="pal-words">暖色／寒色／くすみカラー／パステル／モノトーン／ブランドカラーで統一</span></div><div class="pal-row"><span class="pal-axis">サイズ・比率</span><span class="pal-words">正方形1:1／Instagram縦長4:5／ストーリーズ9:16／A4チラシ</span></div><div class="pal-row"><span class="pal-axis">質感・効果</span><span class="pal-words">高解像度／リアル／マット／つや感／ふんわり</span></div>
+    <div class="pal-hint">💡 プロンプトの最後に2〜3個足すだけ。例）「…にして。ナチュラルな雰囲気・白背景・自然光で。」</div>
   </div>
   
   <div class="card">
@@ -1033,6 +1048,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     <p class="cat-desc">値札・メール・手順書・在庫・シフト・経費メモ</p>
   </div>
   
+  
   <div class="card">
     <div class="card-top">
       <div class="card-title">商品説明を“まとめて”作る</div>
@@ -1183,6 +1199,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     <h2><span class="cat-ic">📊</span>F. 経営・分析・振り返り</h2>
     <p class="cat-desc">売れ筋・アンケート・販路開拓・補助金・月次振り返り</p>
   </div>
+  
   
   <div class="card">
     <div class="card-top">
@@ -1362,6 +1379,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     <p class="cat-desc">仕入れの下調べ・入荷案内・ロス対策・需要の見立て</p>
   </div>
   
+  
   <div class="card">
     <div class="card-top">
       <div class="card-title">仕入れ前の下調べ</div>
@@ -1451,6 +1469,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     <h2><span class="cat-ic">👥</span>H. スタッフ・採用・育成</h2>
     <p class="cat-desc">求人・面接・研修・接客マニュアル・声かけ</p>
   </div>
+  
   
   <div class="card">
     <div class="card-top">
@@ -1551,6 +1570,7 @@ Instagram投稿用の画像を、同じテンプレ・トーンで4枚（4週分
     <h2><span class="cat-ic">🔒</span>I. 安全に使うガイド</h2>
     <p class="cat-desc">お客様情報を守る・学習させない設定・商用利用・確認のルール</p>
   </div>
+  
   
   <div class="card">
     <div class="card-top">
